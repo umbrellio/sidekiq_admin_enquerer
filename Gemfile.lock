@@ -103,7 +103,7 @@ PLATFORMS
 
 DEPENDENCIES
   armitage-rubocop (~> 1.51)
-  base64
+  base64 (~> 0.2)
   bundler (~> 2.4)
   pry (~> 0.14)
   rake (~> 13.0)
