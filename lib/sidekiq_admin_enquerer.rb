@@ -84,9 +84,9 @@ module SidekiqAdminEnquerer
       if defined?(Sidekiq::Web)
         Sidekiq::Web.register(
           SidekiqAdminEnquerer::WebApp,
-          name: "enquerer",
+          name: 'enquerer',
           tab: %w[Enquerer],
-          index: %w[enquerer],
+          index: %w[enquerer]
         )
       end
     end
